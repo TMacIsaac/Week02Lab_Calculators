@@ -10,22 +10,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Arithmetic Calculator</title>
+        <link href="assets/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         
         <h1>Arithmetic Calculator</h1>
         
         <form method="POST" action="arithmetic">
-            
+            <label>first: </label>
             <input type="text" name="variable1" value="${var1}">
-            <br>
+            <label>Second: </label>
             <input type="text" name="variable2" value="${var2}">
-            <br>
             <input type="submit" name="operation" value="+">
             <input type="submit" name="operation" value="-">
             <input type="submit" name="operation" value="*">
             <input type="submit" name="operation" value="/">  
-            <br>
             <p>Result: ${result}</p>
             <br>
             <a href="http://localhost:8084/Week02Lab_Calculators/age">Age Calculator</a>

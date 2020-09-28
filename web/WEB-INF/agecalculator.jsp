@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Age Calculator</title>
+        <link href="assets/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <h1>Age Calculator</h1>
@@ -18,9 +19,7 @@
             
         <label>Enter your age: </label>
         <input type="text" name="current_age" value="${input}">
-        <br>
         <input type="submit" value="Age Next Birthday">
-        <br>
         <p>${message}${age}</p>
         
         </form>
